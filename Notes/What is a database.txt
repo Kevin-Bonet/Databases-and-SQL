@@ -1,0 +1,49 @@
+-We will be using MySQL
+-A Database (DB) is a collection of related information
+for example: phone book, shopping list, facebook's user base
+-Databases can be stored in different ways, for example: on paper, on a computer
+-Database Managemente Systems (DBMS): Special software program that helps users
+create and maintain a Database
+    -makes it easy to managae large amounts of information
+    -handles security
+    -backups
+    -importing/expoting data 
+    -concurrency
+    -interacts with software applications
+        -programming languages
+-CRUD Create, Read, Update, Delete
+-two main type of databases:
+    -relational (SQL)
+        -uses tables
+        -each table has columns and rows
+        -a unique key identifies each row
+    -non relational (noSQL/not just SQL)
+        -organize data in anything but a traditional table
+        -key-value stores
+        -documents
+        -graphs
+        -flexible tables
+-Relational databases can use a relational database management system (RDBMS) to 
+help create and maintain a relational database, for example:
+    -MySQL
+    -Oracle
+    -postgreSQL
+    -mariaDB
+-SQL
+    -Standardized language for interacting with RDBMS
+    -used to perform CRUD operations as well as other administrative tasks (user 
+    management, security, backup, etc)
+    -used to define tables and structures
+    -SQL code used on one RDBMS is not always portable to another without 
+    modification
+-Non relational database management systems (NRDBMS) help users create and maintain 
+a non relational database
+    -mongoDB, dynamoDB, apache cassandra, firebase, etc.
+    -implementation specific meaning there's no set language Standard
+    -Most NRDBMS will implement their own language for performing CRUD and 
+    administrative operations on the database.
+-Database queries are requests made to the database management system for specific
+information
+-As the database's structure becomes more and more complex, it becomes more difficult
+to get the specific pieces of information we want
+-basically relational uses SQL and non relational uses other data structures
