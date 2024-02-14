@@ -1,0 +1,15 @@
+-How do we store information?
+-in tables, we need to know about keys and rows and columns and relationships
+-lets say we have a simple student table, it has 3 columns, 6 rows
+-A column is a single atribute and a row represents a single entry
+-we want primary keys, they uniquely define a row entry
+-in the rows student id, name, and major, student id is the primary key since it
+cannot have a duplicate
+-in a user table with columns like email, password, date_created, and type,
+email would be the primary key
+-about primary keys: some are surrogate keys (dont realte to the real
+world) others are natural keys (do relate to the real world)
+-Foreign key: stores the primary key of a row in an other table
+-Foreign keys help us define relationships between tables
+-A row uniquely defined by two columns is using a composite key as a 
+primary key
