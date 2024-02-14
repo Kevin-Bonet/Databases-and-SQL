@@ -1,0 +1,22 @@
+-SQl is a language used for interacting with RDBMS
+-SQL tells the RDBMS to:
+    -create, retrieve, update and delete data
+    -create and manage databases
+    -design and create database tables
+    -Perform administration tasks (security, 
+    user management, import/export, etc.)
+-SQL implementations vary between systems
+-Concepts remains the same, but the implementation may vary
+-SQL is 4 languages in one:
+    1) Data query language (get information/data)
+    2) Data definition language (define schema)
+    3) Data control language (controlling access to the data)
+    4) Data manipulation language (interting, updating and deleting data)
+-Queries: set of instructions given to the RDBMS (in SQL) that tell the
+RDBMS what information you want it to retrive for you
+    -parse through a huge amount of complex data and get exactly what
+    you need
+    -Example:
+    SELECT employee.name, employee.age
+    FROM employee
+    WHERE employee.salary > 30000;
